@@ -150,7 +150,6 @@ endif
 if WITH_NCURSES
 if !CYGWIN
 bin_PROGRAMS += \
-	slabtop \
 	watch \
 	top/top
 else
@@ -174,11 +173,6 @@ top_top_SOURCES = \
 
 if CYGWIN
 top_top_SOURCES += lib/strverscmp.c
-else
-dist_man_MANS += \
-	slabtop.1
-slabtop_SOURCES = slabtop.c lib/strutils.c lib/fileutils.c
-slabtop_LDADD = $(LDADD) @NCURSES_LIBS@
 endif
 
 top_top_LDADD = $(LDADD) @NCURSES_LIBS@ $(DL_LIB)

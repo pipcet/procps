@@ -28,7 +28,7 @@
 #include <string.h>
 #include <errno.h>
 #include <signal.h>
-#include <ncurses.h>
+#include <ncurses/ncurses.h>
 #include <termios.h>
 #include <getopt.h>
 #include <ctype.h>

@@ -76,10 +76,8 @@ LT_INIT
 # Checks for library functions.
 AC_FUNC_ERROR_AT_LINE
 AC_FUNC_FORK
-AC_FUNC_MALLOC
 AC_FUNC_MBRTOWC
 AC_FUNC_MMAP
-AC_FUNC_REALLOC
 AC_FUNC_STRTOD
 
 usrbin_execdir='${exec_prefix}/bin'

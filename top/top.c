@@ -17,7 +17,7 @@
  */
 
 #include <ctype.h>
-#include <curses.h>
+#include <ncurses/curses.h>
 #include <errno.h>
 #include <fcntl.h>
 #include <float.h>
@@ -28,7 +28,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-#include <term.h>            // foul sob, defines all sorts of stuff...
+#include <ncurses/term.h>            // foul sob, defines all sorts of stuff...
 #undef    raw
 #undef    tab
 #undef    TTY
